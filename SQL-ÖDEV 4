@@ -1,0 +1,19 @@
+#SOL/ÖDEV4
+satır (13 sloc)  296 Bayt
+-- a1
+FİLMDEN FARKLI değiştirme_maliyetini SEÇİN ;
+
+-- a2
+ Filmden sayımı seçin (farklı replastact_cost ) ;
+
+-- a3
+ FİLMDEN SAYI SEÇ ( * ) _
+NEREDE başlık GİBİ  ' T% '  VE derecelendirme =  ' G ' ;
+
+-- a4
+ ÜLKEDEN SAYI SEÇ ( * ) _
+NEREDE ülke ' _____ ' GİBİ  ;
+
+-- a5
+ Şehirden SAYI SEÇ ( * ) _
+NEREDE İLGİ ' %R ' ;
