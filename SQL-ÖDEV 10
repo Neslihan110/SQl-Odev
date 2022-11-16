@@ -1,0 +1,32 @@
+  /*      Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+1- şehir tablosu ile ülke tablosunda bulunan şehir (şehir) ve ülke (ülke) isimlerini
+    birlikte görebildiğimiz LEFT JOIN sorgusunu yöneticilerinden.
+ 
+ 
+2 müşteri tablosu ile ödeme tablosunda bulunan Payment_id ile müşteri tablosundaki first_name
+    ve last_name isimlerini birlikte görebildiğimiz RIGHT JOIN sorgusunu yönlendirin.
+    
+    
+3 müşteri tablosu ile kiralama tablosunda bulunan rent_id ile müşteri tablosundaki ad_adı ve soyadı
+    isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yürütürsünüz.
+ */
+ 
+ 
+-- Ödev10 1. Cevap :
+ 
+ şehir SEÇİN . şehir , ülke . şehirden ülke  _
+SOL KATILIN ülke AÇIK  şehir . ülke_kimliği  =  ülke . ülke_id ;
+
+
+-- Ödev10 2. Cevap :
+
+ ödemeyi SEÇİN . ödeme_kimliği , müşteri . ad , müşteri . müşteriden soyadı  _
+SAĞ KATIL ödeme
+(müşteri_kimliği) kullanılıyor
+
+
+-- Ödev10 3. Cevap :
+
+ müşteri SEÇİN . ad , müşteri . soyadı , kiralık . Rental_id  müşteriden _
+FULL JOIN kiralama
+(müşteri_kimliği) kullanılıyor
