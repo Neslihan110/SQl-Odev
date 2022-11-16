@@ -1,0 +1,64 @@
+-- CEVAP 1 --
+(
+ad_adını SEÇ
+İLE aktör
+)
+BİRLİK
+(
+ad_adını SEÇ
+müşteriden _
+);
+
+-- CEVAP 2 --
+(
+ad_adını SEÇ
+İLE aktör
+)
+KESİŞTİRME
+(
+ad_adını SEÇ
+müşteriden _
+);
+
+-- CEVAP 3 --
+
+(
+ad_adını SEÇ
+İLE aktör
+)
+HARİÇ
+(
+ad_adını SEÇ
+müşteriden _
+);
+
+-- CEVAP 4 --
+(
+ad_adını SEÇ
+İLE aktör
+)
+BİRLİK TÜMÜ
+(
+ad_adını SEÇ
+müşteriden _
+);
+
+(
+ad_adını SEÇ
+İLE aktör
+)
+TÜMÜNÜ KESİŞTİR
+(
+ad_adını SEÇ
+müşteriden _
+);
+
+(
+ad_adını SEÇ
+İLE aktör
+)
+HEPSİ HARİÇ
+(
+ad_adını SEÇ
+müşteriden _
+);
