@@ -1,0 +1,39 @@
+-- 1.film tablosunda filmin uzunluğu sütununda gösterilmektedir. Uzunluğu ortalama film uzunluğun fazla kaç tane filmi vardır?
+
+ Filmden SAYI SEÇİN ( * ) _
+NEREDE uzunluk   >
+(
+		 Filmden AVG (uzunluk ) SEÇİN
+);
+
+
+-- 2.film tablosunda en yüksek rent_rate sürelerine sahip kaç tane film vardır?
+
+ Filmden SAYI SEÇİN ( * ) _
+WHERE rent_rate =
+(
+	 Filmden MAKS (kiralık_oran ) SEÇİN
+);
+
+
+-- 3.film tablosunda en düşük kiralama_oran ve en düşün değiştirme_maliyet değerlerine sahip filmleri sıralayınız.
+
+ Filmden *  SEÇİN _
+WHERE rent_rate = HERHANGİ BİRİ
+(
+	 Filmden MIN (rental_rate ) SEÇİN
+)
+VE değiştirme_maliyeti = HERHANGİ
+(
+	 Filmden MIN (değiştirme_maliyeti ) SEÇİN
+);
+
+
+-- 4.ödeme tablosunda en fazla sayıda alışveriş yapan müşteriler(müşteri) sıralayınız.
+
+ müşteri SEÇİN . ad , müşteri . soyadı_adı  ödemeden _
+INNER JOIN müşterisi ödemede  . müşteri_kimliği = müşteri . Müşteri Kimliği  
+NEREDE  ödeme . miktar  =
+(
+     Ödemeden MAKS (miktar ) SEÇİN
+);
